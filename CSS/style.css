@@ -43,6 +43,7 @@
   .earthly {
     font-weight: 700;
     font-size: 2.25rem;
+    color: white;
   }
   
   .artistry {
@@ -301,3 +302,30 @@
     font-size: 1.5rem;
     margin-bottom: 173px;
   }
+
+  /* Footer Style Starts Here */
+  .footer {
+    width: 100%;
+    background-color:#402101;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 165px;
+  }
+
+  .contact a, .help a {
+    color: white;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 30px;
+  }
+
+  .icons {
+    margin-top: 49.77px;
+    display: flex;
+    gap: 20px;
+  }
+
+
+  
+  
+  
