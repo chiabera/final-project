@@ -55,7 +55,7 @@
   /* Section HERO Style Starts Here */
   
   .hero {
-    background-image: url(/images/Rectangle\ 106.png);
+    background-image: url("../images/Rectangle\ 106.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
