@@ -153,6 +153,7 @@
     position: relative;
   }
   
+
   .parent_div {
     position: relative;
   }
@@ -197,7 +198,7 @@
   .subscribe {
     width: 100%;
     height: 480px;
-    background-image: url(/images/subscribe\ BG.png);
+    background-image: url("../images/subscribe\ BG.png");
     background-position: center;
     background-size: cover;
     background-repeat: repeat;
@@ -326,6 +327,81 @@
   }
 
 
-  
-  
-  
+
+  /* Artworks style starts here */
+  .artworks_hero {
+    width: 100%;
+    background-image: url(../images/artworks\ BG.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    gap: 91px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero_title {
+    font-family: 'Inter';
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+  }
+  .search {
+    width: 70%;
+    margin: 178px auto 17px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+  }
+  .shop_by_category {
+    display: flex;
+    gap: 18px;
+  }
+
+  .search_input {
+    width: 300px;
+    height: 30px;
+    border-radius: 10px 0px 0px 10px;
+  }
+
+  .search_btn {
+    background: #402101;
+    border-radius: 0px 10px 10px 0px;
+    font-family: 'Inter';
+    color: white;
+    font-weight: 400;
+    font-size: 1.125rem;
+    position: absolute;
+  }
+
+  /* Category Section Style */
+
+  .categiry {
+    
+    width: 80%;
+    margin: 0 auto;}
+
+    .filter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  .sort_div {
+    display: flex;
+    gap: 43px;
+    border: 1px solid #B53B1B
+    ;
+  }
+
+  .all_category{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 2.5rem;
+    color: #402101;
+  }
