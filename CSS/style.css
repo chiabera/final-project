@@ -477,7 +477,7 @@ color: white;
 font-weight: 400;
 font-size: 2.5rem;
 }
-  form {
+.main_form {
     border: 2px solid white;
     border-radius: 10px;
     padding: 24px 30px;
