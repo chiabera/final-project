@@ -347,7 +347,7 @@
     font-family: 'Inter';
     color: white;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 2.5rem;
   }
   .search {
     width: 70%;
@@ -405,3 +405,49 @@
     font-size: 2.5rem;
     color: #402101;
   }
+
+  .category_products {
+    margin-top: 94px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 60px;
+  }
+
+  .category_name {
+    font-family: 'Inter';
+    color: #B53B1B;   
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 24px;
+  }
+
+  .category_price {
+    font-family: 'Inter';
+    color: #402101;
+    font-weight: 400;
+    font-size: 1.5rem;
+  }
+
+  .price_cart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 28px;
+  }
+
+  table {
+    margin: 168px auto;
+  }
+  
+  th {
+    border: 1px solid;
+    padding: 5px;
+    width: 22px;
+    height: 22px;
+  }
+
+  .active_page {
+    background-color:#B53B1B;
+    color: white;
+  }
+  
