@@ -99,6 +99,8 @@
     justify-content: space-around;
     margin: 160px 0;
   }
+
+  
   
   .card_description {
     font-size: 1.125rem;
@@ -150,7 +152,7 @@
   }
   
   .four_imgs {
-    max-width: 1000px;
+    width: 90%;
     display: flex;
     gap: 60px;
     margin-top: 40px;
@@ -170,6 +172,7 @@
     border-radius: 25px;
     bottom: 16px;
     left: 16px;
+    font-size: 1rem;
   }
   
   .arrow {
@@ -196,6 +199,16 @@
   .arrows {
     color: white;
   }
+
+  .view_btn {
+    padding: 10px 20px;
+    background-color:#B53B1B;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    display: none;
+  }
+
   
   /* Subscribe Section Style Starts Here */
   
